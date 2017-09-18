@@ -1,0 +1,77 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    padding:5%;
+    margin-bottom:0!important;
+}
+
+.navbar .logo {
+    float:left;
+}
+
+.navbar .search, .navbar .account {
+    margin-top:50%;
+}
+
+.navbar-toggle {
+    margin-top:15px;
+}
+
+.navbar-inverse .navbar-collapse {
+    margin-top:3%;
+}
+
+.navbar-inverse {
+    background-color: #333;
+}
+
+.carousel .container {
+    padding-left:0;
+    padding-right:0;
+}
+
+.hp-grid-01 {
+    background: url('../images/homepage/tiles/homepage-join-clubs-societies.png') no-repeat;
+    height:200px;
+}
+
+.hp-grid-02 {
+    background: url('../images/homepage/tiles/freshers-social.png') no-repeat;
+    height:200px;
+}
+
+.hp-grid-03 {
+    background: url('../images/homepage/tiles/NUS-extra.png') no-repeat;
+    height:200px;
+}
+
+.hp-grid-04 {
+    background: url('../images/homepage/tiles/elections-tile.png') no-repeat;
+    height:200px;
+}
+
+.hp-grid-05 {
+    background: url('../images/homepage/tiles/classrep-tile.png') no-repeat;
+    height:200px;
+}
+
+.hp-grid-06 {
+    background: url('../images/homepage/tiles/myvoice-tile.png') no-repeat;
+    height:200px;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        padding:1%;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .navbar {
+        padding:1%;
+    }
+}
