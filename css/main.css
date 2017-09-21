@@ -32,46 +32,322 @@ body {
     padding-right:0;
 }
 
+.carousel-inner>.item>img {
+    height:200px;
+}
+
 .hp-grid-01 {
     background: url('../images/homepage/tiles/homepage-join-clubs-societies.png') no-repeat;
-    height:200px;
+    height:250px;
+    padding:0;
 }
 
 .hp-grid-02 {
     background: url('../images/homepage/tiles/freshers-social.png') no-repeat;
-    height:200px;
+    height:250px;
+    padding:0;
 }
 
 .hp-grid-03 {
     background: url('../images/homepage/tiles/NUS-extra.png') no-repeat;
-    height:200px;
+    height:250px;
+    padding:0;
 }
 
 .hp-grid-04 {
     background: url('../images/homepage/tiles/elections-tile.png') no-repeat;
-    height:200px;
+    height:250px;
+    padding:0;
 }
 
 .hp-grid-05 {
     background: url('../images/homepage/tiles/classrep-tile.png') no-repeat;
-    height:200px;
+    height:250px;
+    padding:0;
 }
 
 .hp-grid-06 {
     background: url('../images/homepage/tiles/myvoice-tile.png') no-repeat;
-    height:200px;
+    height:250px;
+    padding:0;
 }
+
+.grid-colour-1 {
+    background-color: rgba(60, 78, 84, 0.9);
+    position: relative;
+    top: 50%;
+    left: 0;
+    height: 45%;
+}
+
+.grid-colour-2 {
+    background-color: rgba(240, 123, 5, 0.9);
+    position: relative;
+    top: 50%;
+    left: 0;
+    height: 45%;
+}
+
+.grid-colour-1.reverse {
+    background-color: rgba(240, 123, 5, 0.9);
+    position: relative;
+    top: 50%;
+    left: 0;
+    height: 45%;
+}
+
+.grid-colour-2.reverse {
+    background-color: rgba(60, 78, 84, 0.9);
+    position: relative;
+    top: 50%;
+    left: 0;
+    height: 45%;
+}
+
+.grid-colour-1 h3, .grid-colour-2 h3 {
+    color:#fff;
+    text-transform:uppercase;
+    font-size: 22px;
+    padding: 6%;
+    font-weight:bold;
+    line-height: 43px;
+    text-align:center;
+}
+
+.grid-colour-1 a:hover, .grid-colour-2 a:hover {
+    text-decoration: none;
+    color:#fff;
+}
+
+.latest-news {
+    background:#f7f7f7;
+    min-height:500px;
+    position:relative;
+}
+
+.latest-news h2 {
+    text-align: center;
+    color:#3c4e54;
+    font-size:35px;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding:10%;
+    margin:0;
+}
+
+.news-grid-01 {
+    background: url(../images/homepage/latest-news/NUS-award-news.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+    border:1px solid #f2f2f2;
+}
+
+.news-grid-02 {
+    background: url(../images/homepage/latest-news/freshers-news.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+    border:1px solid #f2f2f2;
+}
+
+.news-grid-03 {
+    background: url(../images/homepage/latest-news/sa-handover-news.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+    border:1px solid #f2f2f2;
+}
+
+.news-grid-colour-1 {
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 50%;
+    left: 0;
+    height: 40%;
+}
+
+.news-grid-colour-1 h3 {
+    color:#3c4e54;
+    text-transform:uppercase;
+    font-size: 22px;
+    padding: 3% 0 0 3%;
+    font-weight:bold;
+    text-align:left;
+}
+
+.news-grid-colour-1 p {
+    padding-left:3%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.news-more-button {
+    padding-left:3%;
+    color:#3c4e54;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.representatives {
+    display:none;
+}
+
+.signup-home {
+    text-align: center;
+    background:#3c4e54;
+    color:#fff;
+    padding-top:5%;
+    min-height: 220px;
+    position: relative;
+}
+
+.signup-home h3 {
+    font-size:23px;
+    font-weight:bold;
+    margin-bottom:6%;
+    line-height: 35px;
+}
+
+.signup-now-button {
+    color:#fff;
+    font-size:22px;
+    font-weight:bold;
+    border:2px solid #fff;
+    padding:1% 5% 1% 5%;
+    text-transform: uppercase;
+    background:#f07b05;
+}
+
+.signup-home img {
+    width:30px;
+    height:30px;
+}
+
+.footer-desktop {
+    background:#2e2e2e;
+    min-height:670px;
+    position:relative;
+    padding:2%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.footer-desktop h5 {
+    color:#fff;
+    font-weight:bold;
+}
+
+.footer-01 img {
+    padding:2%;
+}
+
+.footer-02 {
+    color:#fff;
+}
+
+.footer-03 {
+    color:#fff;
+}
+
+.footer-04 {
+    color:#fff;
+    margin-top:5%;
+}
+
+.footer-04 p {
+    margin-top:5%;
+}
+
+.footer-04 img { 
+    display: none;
+}
+
+a.footer-email-desk, a.footer-email-mob { 
+    color:#fff;
+}
+
+.footer-04 img {
+    margin-top:5%;
+}
+
+.footer-desktop p {
+    color:#cccccc;
+}
+
+.footer-email-desk {
+    display: none;
+}
+
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
     .navbar {
         padding:1%;
     }
+    .representatives {
+        display:block;
+    }
+    .footer-04 img { 
+        display: block;
+    }
+    .footer-email-mob {
+        display: none;
+    }
+    .grid-colour-1.reverse {
+        background-color: rgba(60, 78, 84, 0.9);
+        position: relative;
+        top: 50%;
+        left: 0;
+        height: 45%;
+    }
+    .grid-colour-2.reverse {
+        background-color: rgba(240, 123, 5, 0.9);
+        position: relative;
+        top: 50%;
+        left: 0;
+        height: 45%;
+    }
+    .carousel-inner>.item>img {
+        height:auto;
+    }
 }
 
 /* DESKTOP */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media(min-width:1200px){
+/*@media (min-width: 1025px) and (max-width: 1280px) {*/
     .navbar {
         padding:1%;
+    }
+    .news-grid-01 {
+        margin:10% 0 0 8%;
+    }
+    .representatives {
+        display:block;
+        min-height:500px;
+        position:relative;
+    }
+    .footer-email-desk {
+        display: block;
+        margin-top:25%;
+    }
+    .footer-04 img { 
+        display: block;
+    }
+    .footer-email-mob {
+        display: none;
+    }
+    .grid-colour-1.reverse {
+        background-color: rgba(60, 78, 84, 0.9);
+        position: relative;
+        top: 50%;
+        left: 0;
+        height: 45%;
+    }
+    .grid-colour-2.reverse {
+        background-color: rgba(240, 123, 5, 0.9);
+        position: relative;
+        top: 50%;
+        left: 0;
+        height: 45%;
+    }
+    .carousel-inner>.item>img {
+        height:auto;
     }
 }
