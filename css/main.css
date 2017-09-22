@@ -13,6 +13,7 @@ body {
 
 .navbar .search, .navbar .account {
     margin-top:50%;
+    float:right;
 }
 
 .navbar-toggle {
@@ -27,9 +28,11 @@ body {
     background-color: #333;
 }
 
-.carousel .container {
-    padding-left:0;
-    padding-right:0;
+.input-group.search-box { display:none; }
+
+.carousel .container-fluid {
+    padding:0;
+    margin:0;
 }
 
 .carousel-inner>.item>img {
@@ -315,9 +318,6 @@ a.footer-email-desk, a.footer-email-mob {
     .navbar {
         padding:1%;
     }
-    .news-grid-01 {
-        margin:10% 0 0 8%;
-    }
     .representatives {
         display:block;
         min-height:500px;
@@ -339,6 +339,7 @@ a.footer-email-desk, a.footer-email-mob {
         top: 50%;
         left: 0;
         height: 45%;
+        width:88%;
     }
     .grid-colour-2.reverse {
         background-color: rgba(240, 123, 5, 0.9);
@@ -346,8 +347,160 @@ a.footer-email-desk, a.footer-email-mob {
         top: 50%;
         left: 0;
         height: 45%;
+        width:88%;
+    }
+    .grid-colour-1, .grid-colour-2 {
+        width:88%;
     }
     .carousel-inner>.item>img {
         height:auto;
+    }
+    .navbar .search, .navbar .account {
+        margin-top:20%;
+    }
+    .navbar-nav>li>a {
+        font-size:20px;
+    }
+    .search { display:none; }
+    .input-group.search-box { 
+        width:100%;
+        display:inline-flex; 
+        margin-top:15%;
+    }
+    .navbar-inverse .navbar-collapse {
+        margin-top:1%;
+    }
+    .carousel-caption{
+        bottom:25%;
+    }
+    .carousel-caption h3 {
+        font-size:55px;
+        position: relative;
+        text-transform:uppercase;
+    }
+    .carousel-caption p {
+        font-size:30px;
+        line-height:35px;
+        margin-bottom:5%;
+    }
+    .button-carousel {
+        text-decoration: none;
+        background-color: #e65722;
+        color: #fff;
+        padding: 1% 3% 1% 3%;
+        border-top: 3px solid #f2f2f2;
+        border-right: 3px solid #f2f2f2;
+        border-bottom: 3px solid #f2f2f2;
+        border-left: 3px solid #f2f2f2;
+        font-size:28px;
+    }
+    a:hover.button-carousel {
+        color:#cccccc;
+        text-decoration:none;
+    }
+    .grid-container {
+        margin-top:5%;
+    }
+    .hp-grid-04, .hp-grid-05, .hp-grid-06 {
+        margin-top:5%;
+        height:300px;
+    }
+    .hp-grid-01, .hp-grid-02, .hp-grid-03 {
+        height:300px;
+    } 
+    .latest-news h2 {
+        padding:5%;
+    }
+    .latest-news {
+        margin-top:3%;
+        min-height:540px;
+    }
+    .news-grid-colour-1 {
+        height:50%;
+    }
+    .news-grid-colour-1 h3 {
+        padding:7% 0 0 5%;
+    }
+    .news-grid-colour-1 p, .news-more-button {
+        padding-left:5%;
+    }
+    .representatives h2 {
+        text-align: center;
+        color:#3c4e54;
+        font-size:45px;
+        font-weight:bold;
+        text-transform: uppercase;
+        padding-top:1%;
+    }   
+    .representatives-grid-01 {
+        background: url(../images/homepage/representatives/megan-student-president.png) top center no-repeat;
+        height: 330px;
+        margin: 10% 0 0 8%;
+    }
+    .representatives-grid-02 {
+        background: url(../images/homepage/representatives/jack-m.png) top center no-repeat;
+        height: 330px;
+        margin: 10% 0 0 8%;
+    }
+    .representatives-grid-03 {
+        background: url(../images/homepage/representatives/matthew-m-2.png) top center no-repeat;
+        height: 330px;
+        margin: 10% 0 0 8%;
+    }
+    .representatives-grid-04 {
+        background: url(../images/homepage/representatives/milea-leone.png) top center no-repeat;
+        height: 330px;
+        margin: 10% 0 0 8%;
+    }
+    .representatives-grid-colour-1 {
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        top: 60%;
+        left: 0;
+        height: 40%;
+        text-align: center;
+    }
+    .representatives-grid-colour-1 h3 {
+        color:#3c4e54;
+        font-size: 22px;
+        padding: 6% 0 0 3%;
+        font-weight:bold;
+        text-align:center;
+        margin-top:2%;
+    }
+    .representatives-grid-colour-1 p {
+        padding-left:3%;
+        font-family: 'Helvetica', sans-serif;
+        text-align:center;
+        margin-bottom:10%;
+    }
+    .representatives-more-button {
+        padding-left:3%;
+        color:#3c4e54;
+        font-size:22px;
+        font-weight:bold;
+        border:2px solid #3c4e54;
+        padding:3% 15% 3% 15%;
+        text-transform: uppercase;
+        margin-top:2%;
+    }
+    .signup-home img {
+        width:50px;
+        height:50px;
+    }
+    .signup-home {
+        padding-top:2%;
+    }
+    .signup-home h3 {
+        margin-bottom:2%;
+    }
+    .footer-desktop {
+        min-height:320px;
+    }
+    .footer-desktop h5 {
+        margin-bottom:5%;
+    }
+    .footer-04 p {
+        margin-top:30%;
     }
 }
