@@ -44,6 +44,28 @@ body {
     height:200px;
 }
 
+.button-carousel {
+    text-decoration: none;
+    background-color: #e65722;
+    color: #fff;
+    padding: 1% 3% 1% 3%;
+    border-top: 2px solid #f2f2f2;
+    border-right: 2px solid #f2f2f2;
+    border-bottom: 3px solid #f2f2f2;
+    border-left: 2px solid #f2f2f2;
+    font-size:14px;
+    text-transform: uppercase;
+}
+
+a:hover.button-carousel {
+    color:#cccccc;
+    text-decoration:none;
+}
+
+.carousel-caption {
+    bottom:27px;
+}
+
 .hp-grid-01 {
     background: url('../images/homepage/tiles/homepage-join-clubs-societies.png') no-repeat;
     height:250px;
@@ -282,6 +304,9 @@ a.footer-email-desk, a.footer-email-mob {
 .footer-email-desk {
     display: none;
 }
+.footer-02 a, .footer-03 a {
+    color:#fff;
+}
 
 /* Clubs & Societies */
 h2.cs-title {
@@ -295,33 +320,41 @@ h2.cs-title {
 }
 
 .cs-para {
-    padding:2% 5% 2% 5%;
+    padding-bottom:7%;
     font-size:17px;
     font-family: 'Helvetica', sans-serif;
+}
+
+.cs-faqs {
+    min-height:730px;
 }
 
 .club-grid-01 {
     background: url(../images/clubs-and-societies/grid/tile-1-clubs-societies-a-z-tile.png) top center no-repeat;
     height: 260px;
-    margin:0;
+    margin-bottom:10%;
+    position: relative;
 }
 
 .club-grid-02 {
     background: url(../images/clubs-and-societies/grid/tile-2-sign-up-club.png) top center no-repeat;
     height: 260px;
-    margin:0;
+    margin-bottom:10%;
+    position: relative;
 }
 
 .club-grid-03 {
     background: url(../images/clubs-and-societies/grid/tile-3-charity-and-fundraising.png) top center no-repeat;
     height: 260px;
-    margin:0;
+    margin-bottom:10%;
+    position: relative;
 }
 
 .club-grid-04 {
     background: url(../images/clubs-and-societies/grid/tile-4-business.png) top center no-repeat;
     height: 260px;
-    margin:0;
+    margin-bottom:10%;
+    position: relative;
 }
 
 .club-grid-colour-1 {
@@ -346,13 +379,172 @@ h2.cs-title {
     min-height: 600px;
 }
 
+.club-grid-content {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.cs-faqs-content h4 {
+    color:#3c4e54;
+    font-size:16px;
+    font-weight:bold;
+    padding:5% 0 1% 5%;
+    margin:0;
+}
+
+.cs-faqs-content p {
+    font-family: 'Helvetica', sans-serif;
+    padding:2% 0 0 5%;
+}
+
+.cs-faqs-content.last {
+    margin-bottom: 7%;
+}
+
+.cs-faqs-content-button {
+    text-align: center;
+}
+
+.cs-faqs-contact-button-mobile {
+    text-decoration: none;
+    color: #3c4e54;
+    padding: 2% 10% 2% 10%;
+    border-top: 3px solid #3c4e54;
+    border-right: 3px solid #3c4e54;
+    border-bottom: 3px solid #3c4e54;
+    border-left: 3px solid #3c4e54;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.cs-faqs-contact-button-desktop, .cs-search-box {
+    display:none;
+}
+
+/* Presidential Team */
+.ptp-hero-img {
+    width:100%;
+}
+
+.ptp-representatives {
+    min-height:500px;
+    position:relative;
+}
+
+.ptp-representatives h2 {
+    text-align: center;
+    color:#3c4e54;
+    font-size:35px;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding:10%;
+    margin:0;
+}
+
+.ptp-representatives-grid-01 {
+    background: url(../images/homepage/representatives/megan-student-president.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.ptp-representatives-grid-02 {
+    background: url(../images/homepage/representatives/jack-m.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.ptp-representatives-grid-03 {
+    background: url(../images/homepage/representatives/matthew-m-2.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.ptp-representatives-grid-04 {
+    background: url(../images/homepage/representatives/milea-leone.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.ptp-representatives-grid-colour-1 {
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 60%;
+    left: 0;
+}
+
+.ptp-representatives-grid-colour-1 h3 {
+    color:#3c4e54;
+    text-transform:uppercase;
+    font-size: 22px;
+    padding: 3% 0 0 7%;
+    font-weight:bold;
+    text-align:left;
+}
+
+.ptp-representatives-grid-colour-1 p {
+    padding-left:7%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.ptp-representatives-more-button {
+    padding-left:7%;
+    color:#3c4e54;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.signup-home-inverse {
+    text-align: center;
+    background:#f07b05;
+    color:#fff;
+    padding-top:5%;
+    min-height: 220px;
+    position: relative;
+}
+
+.signup-home-inverse h3 {
+    font-size:23px;
+    font-weight:bold;
+    margin-bottom:6%;
+    line-height: 35px;
+}
+
+.signup-now-button-inverse {
+    color:#fff;
+    font-size:22px;
+    font-weight:bold;
+    border:2px solid #fff;
+    padding:1% 5% 1% 5%;
+    text-transform: uppercase;
+    background:#3c4e54;
+}
+
+.signup-home-inverse img {
+    width:30px;
+    height:30px;
+}
+
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
     .navbar {
         padding:1%;
     }
+    .navbar-nav {
+        font-size:10px;
+    }
+    .navbar .search, .navbar .account {
+        margin-top:30%;
+    }
+    .navbar-nav>li>a {
+        padding:6px 5px 0 5px;
+    }
     .representatives {
         display:block;
+        min-height:500px;
+        position:relative;
     }
     .footer-04 img { 
         display: block;
@@ -376,6 +568,77 @@ h2.cs-title {
     }
     .carousel-inner>.item>img {
         height:auto;
+    }
+    .representatives h2 {
+        text-align: center;
+        color:#3c4e54;
+        font-size:45px;
+        font-weight:bold;
+        text-transform: uppercase;
+        padding-top:1%;
+    }   
+    .representatives-grid-01 {
+        background: url(../images/homepage/representatives/megan-student-president.png) top center no-repeat;
+        height: 330px;
+        margin: 5% 0 0 8%;
+    }
+    .representatives-grid-02 {
+        background: url(../images/homepage/representatives/jack-m.png) top center no-repeat;
+        height: 330px;
+        margin: 5% 0 0 8%;
+    }
+    .representatives-grid-03 {
+        background: url(../images/homepage/representatives/matthew-m-2.png) top center no-repeat;
+        height: 330px;
+        margin: 5% 0 0 8%;
+    }
+    .representatives-grid-04 {
+        background: url(../images/homepage/representatives/milea-leone.png) top center no-repeat;
+        height: 330px;
+        margin: 5% 0 0 8%;
+    }
+    .representatives-grid-colour-1 {
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        top: 50%;
+        left: 0;
+        height: 40%;
+        text-align: center;
+    }
+    .representatives-grid-colour-1 h3 {
+        color:#3c4e54;
+        font-size: 22px;
+        padding: 3% 0 0 3%;
+        font-weight:bold;
+        text-align:center;
+        margin-top:2%;
+    }
+    .representatives-grid-colour-1 p {
+        padding-left:3%;
+        font-family: 'Helvetica', sans-serif;
+        text-align:center;
+        margin-bottom:3%;
+    }
+    .representatives-more-button {
+        padding-left:3%;
+        color:#3c4e54;
+        font-size:22px;
+        font-weight:bold;
+        border:2px solid #3c4e54;
+        padding:3% 15% 3% 15%;
+        text-transform: uppercase;
+        margin-top:2%;
+    }
+    .news-grid-colour-1 {
+        left:23%;
+        width:54%;
+    }
+    .news-grid-01, .news-grid-02, .news-grid-03 {
+        border:none;
+    }
+    .hp-grid-01, .hp-grid-02, .hp-grid-03, .hp-grid-04, .hp-grid-05, .hp-grid-06 {
+        width:45%;
+        left:5%;
     }
 }
 
@@ -460,6 +723,7 @@ h2.cs-title {
         border-bottom: 3px solid #f2f2f2;
         border-left: 3px solid #f2f2f2;
         font-size:28px;
+        text-transform: uppercase;
     }
     a:hover.button-carousel {
         color:#cccccc;
@@ -569,5 +833,64 @@ h2.cs-title {
     }
     .footer-04 p {
         margin-top:30%;
+    }
+    /* Clubs & Societies */
+    .cs-faqs-contact-button-mobile { display: none; }
+    .cs-faqs-contact-button-desktop {
+        display:block;
+        text-decoration: none;
+        color: #3c4e54;
+        padding: 2% 1% 2% 1%;
+        border-top: 3px solid #3c4e54;
+        border-right: 3px solid #3c4e54;
+        border-bottom: 3px solid #3c4e54;
+        border-left: 3px solid #3c4e54;
+        font-size: 23px;
+        text-transform: uppercase;
+        width:50%;
+        margin:5% 0 0 5%;
+    }
+    .cs-search-box {
+        display:block;
+        margin-top:2%;
+    }
+    .cs-search-box .input-group {
+        width:30%;
+        margin:0 auto;
+    }
+    .cs-search-box .form-control {
+        border-radius:1px;
+        height:45px;
+        
+    }
+    .cs-search-box .btn {
+        padding:10.5px 12px;
+        border-left:none;
+    }
+    h2.cs-title {
+        font-size:25px;
+        padding:3% 5% 1% 5%;
+    }
+    .cs-para {
+        padding: 1% 8% 4% 8%;
+    }
+    .club { 
+        background-color:#f7f7f7;
+        padding-top:3%;
+    }
+    .club-grid-content a:hover {
+        text-decoration: none;
+    }
+    .club-grid-colour-1 h3 {
+        font-size:32px;
+    }
+    .cs-faqs-content h4 {
+        font-size:20px;
+    }
+    .cs-faqs-content p {
+        font-size:16px;
+    }
+    .cs-faqs {
+        min-height: 500px;
     }
 }
