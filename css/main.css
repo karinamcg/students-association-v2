@@ -423,6 +423,127 @@ h2.cs-title {
     display:none;
 }
 
+/* A-Z Clubs and Societies */
+.az-search-buttons button.btn.btn-secondary {
+    border:1px solid #000;
+    border-radius:1px;
+    background:#f7f7f7;
+    font-size:20px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.az-search-buttons button.btn.btn-secondary.active {
+    background:#cccccc;
+}
+
+.az-grid {
+    background:#f7f7f7;
+    min-height:500px;
+    position:relative;
+    margin-top:10%;
+}
+
+.az-grid h2 {
+    text-align: center;
+    color:#3c4e54;
+    font-size:35px;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding:10%;
+    margin:0;
+}
+
+.az-grid-01 {
+    background: url(../images/clubs-and-societies/a-z/tile-1-chess.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-02 {
+    background: url(../images/clubs-and-societies/a-z/tile-2-painting.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-03 {
+    background: url(../images/clubs-and-societies/a-z/tile-3-dice.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-04 {
+    background: url(../images/clubs-and-societies/a-z/tile-4-minecraft.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-05 {
+    background: url(../images/clubs-and-societies/a-z/tile-5-Mens-Football-Club.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-06 {
+    background: url(../images/clubs-and-societies/a-z/tile-6-Netball.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-07 {
+    background: url(../images/clubs-and-societies/a-z/tile-7-statue.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-08 {
+    background: url(../images/clubs-and-societies/a-z/tile-8-hands.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-09 {
+    background: url(../images/clubs-and-societies/a-z/tile-9-Womens-Society.png) top center no-repeat;
+    height: 330px;
+    margin:0;
+}
+
+.az-grid-colour-1 {
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 50%;
+    left: 0;
+    height: 44%;
+}
+
+.az-grid-colour-1 h3 {
+    color:#3c4e54;
+    text-transform:uppercase;
+    font-size: 22px;
+    padding: 3% 0 0 3%;
+    font-weight:bold;
+    text-align:left;
+}
+
+.az-grid-colour-1 p {
+    padding:0 3% 0 3%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.az-grid-more-button {
+    padding-left:3%;
+    color:#3c4e54;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.az-03 { display:none; }
+.az-search-box { margin-top:5%; }
+
+.btn-group.az-search-buttons {
+    margin-top:5%;
+}
+
 /* Presidential Team */
 .ptp-hero-img {
     width:100%;
@@ -639,6 +760,16 @@ h2.cs-title {
     .hp-grid-01, .hp-grid-02, .hp-grid-03, .hp-grid-04, .hp-grid-05, .hp-grid-06 {
         width:45%;
         left:5%;
+    }
+    /* A-Z Clubs and Societies */
+    .az-03 { display:block; }
+    .signup-home.az { display:none; }
+    .az-search-box {
+        width:35%;
+        margin-top:2%;
+    }
+    .btn-group.az-search-buttons, .az-grid {
+        margin-top:2%;
     }
 }
 
@@ -892,5 +1023,15 @@ h2.cs-title {
     }
     .cs-faqs {
         min-height: 500px;
+    }
+    /* A-Z Clubs and Societies */
+    .az-03 { display:block; }
+    .signup-home.az { display:none; }
+    .az-search-box {
+        width:35%;
+        margin-top:2%;
+    }
+    .btn-group.az-search-buttons, .az-grid {
+        margin-top:2%;
     }
 }
