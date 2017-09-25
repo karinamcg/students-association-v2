@@ -544,6 +544,55 @@ h2.cs-title {
     margin-top:5%;
 }
 
+/* Clubs & Societies - Arts Page */
+.art-intro h4 {
+    color: #3c4e54;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5% 0 1% 0;
+    margin: 0;
+}
+
+.join-button {
+    color:#fff;
+    font-size:22px;
+    font-weight:bold;
+    border:2px solid #fff;
+    padding:1% 5% 1% 5%;
+    text-transform: uppercase;
+    background:#f07b05;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2.art-title {
+    text-align: left;
+    color:#3c4e54;
+    font-size:23px;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding:5%;
+    margin:0;
+}
+
+.art-para {
+    font-size:17px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.art-instagram, .art-facebook, .art-twitter {
+    margin-top:3%;
+}
+
+.art-social h4 {
+    color: #3c4e54;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15% 0 1% 0;
+    margin: 0;
+}
+
+.carousel-caption.art { display:none; }
+
 /* Presidential Team */
 .ptp-hero-img {
     width:100%;
@@ -641,6 +690,7 @@ h2.cs-title {
     padding:1% 5% 1% 5%;
     text-transform: uppercase;
     background:#3c4e54;
+    font-family: 'Oswald', sans-serif;
 }
 
 .signup-home-inverse img {
@@ -771,6 +821,8 @@ h2.cs-title {
     .btn-group.az-search-buttons, .az-grid {
         margin-top:2%;
     }
+    /* Art Club */
+    .signup-home.art { display:none; }
 }
 
 /* DESKTOP */
@@ -1034,4 +1086,17 @@ h2.cs-title {
     .btn-group.az-search-buttons, .az-grid {
         margin-top:2%;
     }
+    /* Art Club */
+    .signup-home.art { display:none; }
+    h2.art-title {
+        font-size:25px;
+        padding:3% 5% 1% 5%;
+    }
+    .art-para {
+        padding: 1% 8% 4% 8%;
+    }
+    .art-intro h4 {
+        padding: 1% 8% 4% 8%;
+    }
+    .carousel-caption.art { display:block; }
 }
